@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
+import AppStore from './components/AppStore/AppStore'
 
 const App = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const App = () => {
         <Home />
         <Services />
         <Banner />
+        <AppStore />
       </div>
  
     </>
