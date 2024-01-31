@@ -7,6 +7,7 @@ import Home from './components/Home/Home'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
+import Testimonial from './components/Testimonial/Testimonial'
 
 const App = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const App = () => {
         <Services />
         <Banner />
         <AppStore />
+        <Testimonial />
       </div>
  
     </>
